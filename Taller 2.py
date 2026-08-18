@@ -5,7 +5,8 @@ categorias = ['Manzanas', 'Granadillas', 'Naranjas', 'Moras']
 cantidades = [10, 15, 7, 12]
 
 # 2. Crear la gráfica de barras
-plt.bar(categorias, cantidades, color=['red', 'yellow', 'orange', 'purple'])
+barras = plt.bar(categorias, cantidades, color=['red', 'yellow', 'orange', 'purple'])
+plt.bar_label(barras)
 
 # 3. Añadir títulos y etiquetas
 plt.title('Venta de Frutas')
