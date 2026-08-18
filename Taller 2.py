@@ -14,4 +14,6 @@ plt.ylabel('Cantidad')
 
 # 4. Mostrar la gráfica
 plt.show()
+#prueba rama
+print ("Esto lo hice en una rama jeje")
 
